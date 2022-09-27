@@ -7,7 +7,7 @@ config_dict['language'] = 'en'
 
 owm = OWM('859b1a518fcd7ea438a7e1768bd99b4b', config_dict)
 mgr = owm.weather_manager()
-bot = telebot.TeleBot("5515635064:AAHb13nBzGQpTAm95NhthXaQK9223Rjnbco", parse_mode=None)  # telegram bot name: https://t.me/CityWeatherBot
+bot = telebot.TeleBot("5515635064:AAEDEFxbIyGtftbVx59ER-SzO9CEAz49E4M", parse_mode=None)  # telegram bot name: https://t.me/CityWeatherBot
 
 
 @bot.message_handler(content_types=['text'])
