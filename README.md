@@ -10,5 +10,3 @@ _Have you ever wondered what the weather is like outside the window? Especially 
 ### [YouTube](https://www.youtube.com/channel/UCOGqsd1lObd2tEKPMESn0yg)
 
 ### __Discord:__ dankY#1157
-
-![Имя отутствует (online-video-cutter com)(2)(1)](https://img.icons8.com/color/344/dota.png)
