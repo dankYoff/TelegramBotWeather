@@ -5,9 +5,9 @@ from pyowm.utils.config import get_default_config
 config_dict = get_default_config()
 config_dict['language'] = 'en'
 
-owm = OWM('859b1a518fcd7ea438a7e1768bd99b4b', config_dict)
+owm = OWM('TOKEN_OWM', config_dict)
 mgr = owm.weather_manager()
-bot = telebot.TeleBot("5515635064:AAEDEFxbIyGtftbVx59ER-SzO9CEAz49E4M", parse_mode=None)  # telegram bot name: https://t.me/CityWeatherBot
+bot = telebot.TeleBot("TOKEN_TELEGRAM", parse_mode=None)  # telegram bot name: https://t.me/CityWeatherBot
 
 
 @bot.message_handler(content_types=['text'])
